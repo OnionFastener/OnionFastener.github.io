@@ -542,6 +542,19 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1300px) {
+    .services__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services_wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* footer section */
 .footer__container {
     background-color: #131313;
     padding: 5rem 0;
