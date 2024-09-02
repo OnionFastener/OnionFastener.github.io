@@ -418,6 +418,10 @@
         margin-top: 1rem;
         font-size: 1.5rem;
     }
+
+    #card-2 {
+        font-size: 10rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
